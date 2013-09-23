@@ -1,0 +1,81 @@
+#artistlx {width: 30%; float: left;}
+#artistrx {width: 67%; float: right;}
+
+#artistlx, #artistrx {padding-top: 20px;}
+
+#artistrx div.default, #artistrx div.images {height: 460px;}
+
+#thumbspane { width: 90%; overflow: hidden;}
+
+#thumbsreel { width: 99%; position: relative;}
+
+
+
+/*LAYOUT*/
+
+#artistlx > ul {margin: 40px 0px 90px 0px;}
+#artistlx > ul li {margin: 7px 0px 7px 0px;}
+
+
+#artworkinfo {height: 40px; margin: 0px 0px 20px 0px;}
+
+.artwork { width: 100%; height: 100%; }
+.artworkimage {display: block; width: 100%; height: 90%; margin-bottom: 30px;
+}
+.artworkinfo {margin-left: 0px; text-align: center;}
+#thumbspane {width:250px; height: 122px; overflow: none;}
+#artistrx > div > div {display: none;}
+#artistrx div div, #artistrx .default {background-position: center; background-repeat: no-repeat; background-size: contain;}
+
+
+.thumber {overflow: none; width:240px; height: 30px; cursor: pointer; -webkit-user-select: none;
+-khtml-user-select: none; -moz-user-select: none; -o-user-select: none; user-select: none;
+ }
+#thumber-up.clickable { background-image: url(../img/artistpage/black_arrow_up.png); }
+#thumber-up.unclickable { background-color: white; }
+
+#thumber-down.clickable { background-image:url(../img/artistpage/black_arrow_down.png); }
+#thumber-down.unclickable { background-color: white; }
+
+#thumber-up.clickable, #thumber-up.unclickable, #thumber-down.clickable, #thumber-down.unclickable { background-position: center center; background-repeat: no-repeat; background-size: 8px; }
+
+
+.thumb { width: 55px; height: 55px; float: left; display: inline; margin: 2px 4px 2px 0px; background-size: cover; }
+div.unselected:hover { border: 1px solid black; }
+	div.selected { border: 1px solid #686868; }
+	div.unselected { border: 1px solid white; }
+
+.hidden { display: none; }
+
+#artistrx .biography {}
+#artistrx .press {}
+#artistrx .exhibitions {}
+
+#artistrx .biography, #artistrx .press, #artistrx .exhibitions {padding-left: 52px;}
+
+#artworkinfo div {display: none;}
+#artworkinfo div em {font-style: italic;}
+
+#biopane {height: 500px; width: 100%; overflow: scroll;}
+
+
+#biopane::-webkit-scrollbar {
+background-color: #ffffff;
+    width: 25px; position: relative;
+    cursor: hand;
+}
+ 
+#biopane::-webkit-scrollbar-track {
+position: relative; left:100px;
+
+    background-color: #fff;
+    border-radius: 0px;
+}
+ 
+#biopane::-webkit-scrollbar-thumb {
+
+   	border-radius: 0px;
+    background-color: #fff;
+    background-image:url(../img/scrollbar.jpg); background-position: center top; background-repeat: repeat-y; cursor: hand;
+}
+

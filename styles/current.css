@@ -1,0 +1,11 @@
+#current {}
+#current h3 {text-align: left; padding-top: 20px; padding-bottom: 5px;}
+#current h4 {font-size: 2em; width:300px; padding: 15px 0px;}
+#current h5 {font-size: 1.5em; width:300px; padding: 20px 0px;
+}
+#current h4, #current h5 {font-family: SangBleu;}
+#current p {display: block; width: 600px; padding: 40px 0px;}
+#current p, img, h4, h5, div {margin: 0 auto; text-align: center}
+#current div.boty {background-image: url(/nightgallery/img/rotm.png); width: 230px; height: 310px; margin-top: 25px; margin-bottom: 25px;}
+#current div.other {background-image: url(/nightgallery/img/ph.png); width: 360px; height: 240px;}
+#current p em {display: block; color: #ff0000; padding: 20px 0px;}

@@ -1,0 +1,80 @@
+@media handheld, only screen and (max-device-width: 480px), only screen and (min-width: 0px) and (max-width: 480px) {
+
+	/* GENERAL */
+	
+	html, body, .wid, .footer, .header { width: 100%; margin: 0px auto; padding: 0px; color: #000000; background-color: #f9f3de;}
+
+	.iphonelink { display: inline; }
+	
+	.wid {min-height: intrinsic; height: intrinsic;}
+	
+	.logo, h1 { width: 100%; padding: 10px 0px 5px 0px; margin: 0px; font-size: 20px; }
+	
+	.nav ul li {padding: 0px;}
+	
+	.nav ul.left {
+		width: 60%;
+	}
+	
+	.nav ul.right {
+		width: auto;
+	}
+	
+	.nav ul.right li {
+		padding: 0px;
+	}
+	
+	.article {height: auto; width: 100%; padding: 0px; margin: 0px; overflow: hidden; position: absolute; bottom: 0px; top:90px;  }
+	#mainpane {height: 100%; padding: 0px;}
+	.fullwidth {height: 100%;}
+
+	
+	.desktoplink, .footer, #calendar, #ads  {display: none;}
+	
+	#exhibdrop {background-color: transparent; border: 0px solid black; z-index: -5;}
+
+	/* EXHIBITIONS */
+
+	#exhibitions div { width: 100%; padding: 20px 0px;}
+	
+	#exhibitions ul li ul li { padding: 0px 0px 0px 15px; margin: 10px 0px; }
+	#exhibitions > div > ul > li > a { color:#afa076;  }
+	
+	
+	
+	
+	#eventlx, #eventrx, #eventright {float: none; width: 100%; padding: 7px 0px; margin: 0px; min-height: intrinsic; }
+	
+	#eventrx div.default {height: 300px; background-color: #101010; }
+	
+	#thumbnailmodule {display: none;}
+
+	#presspane, #subpane, #pressrelease, #subtext {max-height: intrinsic; overflow: auto; width: 100%; padding: 0px 0px 10px 0px; margin: 0px; }
+
+	/* NEWS */
+	
+	#newspage li { width: 100%; padding: 10px 0px; }
+	
+	#newspage li h3 {padding: 0px 0px 5px 0px;}
+	
+	#newspage li a, .newsitemcontent {float: none;}
+	
+	.newsitemdate {float: none; padding: 0px 0px 8px 0px; color: #afa076;}
+	
+	.newsitemcontent {width: 100%;}
+	
+	.newsitemcontent iframe { width: min-intrinsic; height: auto;}
+	
+	
+	#info-left img {width: 100%; height: intrinsic;}
+	
+	
+	
+	/* INFO */
+	
+	#info-left, #info-right {
+		width: 100%; height: intrinsic; padding: 20px 0px; margin: 0px; float: none; clear: both;
+	}
+	
+	
+} 

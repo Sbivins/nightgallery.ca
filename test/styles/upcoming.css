@@ -1,0 +1,6 @@
+#upcoming > div {width: 600px; margin: 10px auto; }
+#upcoming h3 {margin-top: 20px}
+#upcoming div.timeframe { margin-top: 30px; }
+#upcoming a.eventinfo {display: block; margin: 10px 0px 60px 150px; }
+#upcoming a.eventinfo .date {color: #a1a1a1; }
+#upcoming a.eventinfo h4 {font-family: SangBleu; display: block; text-align: left; font-size: 2em;}

@@ -1,0 +1,217 @@
+@font-face {
+		font-family: SangBleu;
+		src: url('fonts/SangBleuBP-Light.otf'); 
+	}
+
+.sang {font-family: serif; /*color: #FFEDE3;*/ color: #dac9c0; text-transform: uppercase;}
+.contactzone {display:none;}
+.artzone {display: none;}
+#lx div {height: 100%; width: 100%;}
+
+.wid {margin-left: auto; margin-right: auto;}
+	
+html, body {background-color: black; color: white; font-family: arial, sans-serif; font-size: 12px; padding-top: 20px;}
+	
+.header {margin-top: 50px;}
+	
+.nav, hr, .header {max-width: 95%; margin-left: auto; margin-right: auto; clear: both;}
+	
+	/* LINKS, .headerS */
+	
+		/*
+		IMAGE LOGO:
+		h1 {margin-left: auto; margin-right: auto; width: 180px; height: 30px;
+		background-color: #dd2e2e; background-image: url("../img/title.png");}*/
+		
+h1 {width: 100%; height: 30px; font-size: 19px; text-align: center; font-size: 1.2em;}
+		
+h2 { position: relative; top: -5px; left:50px; margin-left: 60%; margin-right: 50%; width: 60px; height: 25px;}
+		
+h2 img {width: 100%;}
+		
+		/* h3 is with .rightcontent */
+	
+a:link, a:visited { text-decoration: none; color: white; }
+a:hover, a:active { color: red; }
+	
+	/* NAVIGATION */
+	
+.nav { height: 30px; margin: 0px auto 0px auto; }
+		
+#nav { border-bottom: 1px solid white; }
+		
+.nav ul li { float: left; padding-bottom: 20px; }
+		
+.nav ul li { padding-right: 20px; padding-left: 20px; }
+.nav ul.right li.edge { padding-right: 0px; padding-left: 20px; }
+.nav ul.left li.edge { padding-right: 20px; padding-left: 0px; }
+
+.nav ul.left { width: 400px; }
+.nav ul.right { width: 337px; }
+		
+ul.left { float: left; }
+ul.left li { margin: 0px 5px 0px 0px; }
+		
+ul.right { float: right; }
+ul.right li { margin:0px 0px 0px 5px; }
+	
+	
+	
+hr { height: 1px; background-image: url('../img/hr.jpg'); background-repeat: repeat-x; border: 0px solid black; display: none; }
+	
+	
+	/* ARTIST LIST */
+	
+.dropdown {	width: 100%; height: 100%;
+				position: relative; background-color: black; 
+				border-bottom: 1px solid white; 
+				border-left: 1px solid white; 
+				border-top: 0px solid; 
+				border-top-style: outset; top: -24px; }
+.artzone { display:none; }
+	
+.contactzone .section { width: 75%; margin: 0px auto; margin-top: 50px;}
+.contactzone .section p { margin-bottom: 20px; margin-top: 20px;}
+.artists { padding-top:30px; z-index: 500; }
+.artists { margin-top: 30px; }
+	/*.artists li {margin-left: 60px; height: 50px; padding-top: 20px;}*/
+.artists li { margin-left: 60px; height: 12%; padding-top: 20px; }
+	/*change the line below to make up for the rest of the space in the dropdown*/
+.artists li#last { padding-bottom: 7px;}
+	
+	
+	.header { margin-top: 0px; }
+	
+	.article, .footer { max-width: 100%; clear: both; margin: 0px auto 0px auto; }
+	
+	.article { padding: 0px;}
+	
+	.artists {display: inline;}
+	
+	#lx {float: left; width: 60%; height: 500px; padding-top: 20px;}
+	/*#lx img {width: 100%; max-height: 500px;}*/
+	#lx img { width: 100%; max-height: 100%;}
+	#rx {float: right; width: 38%; height: 500px; padding-top: 20px;}
+	.rightcontent {width: 100%; height: 100%; /*background-color: #d81111;*/}
+	.poster { width: 80%; height: 80%; position: relative; top:13%; left: 5%; right:11%; bottom:11%; /*background-color: #885bc7;*/ }
+	.poster { text-align: center; }
+	.poster * { width: 100%; /*background-color: #c52222;*/}
+	.poster h3 { font-size: 2.3em; }
+	.poster ul { margin-top: 30%; font-size: 1.4em;}
+	.poster p { margin-top: 30%; font-size: 1.2em;}
+
+	
+	/*#rx img {margin: 90px 80px 0px 0px; width: 75%;}*/
+	
+	.arm {  }
+	.ialika { display: none; }
+	.imira { display: none; }
+	.isamara { display: none; }
+	.ipaulh { display: none; }
+	.ianna { display: none; }
+	.ipaulw { display: none; }
+	
+	#calendar { clear: both; width: 100%; }
+	#calendar p {width: 100%; text-align: center; margin-top: 35px; margin-bottom: 25px;}
+	
+	#calendar img {width: 80%;  height: auto; margin: 0px 10%; }
+	#calendar img#lines { width: 60%; height: 47px; margin: 0px 20%; }
+	
+	#ads {width: 96%; margin: 0% 2%;}
+	
+	#ads div { width: 19%;  float: left; margin-right: 8%; }
+	#ads div.last { margin-right: 0%; }
+	#ads div img { width: 100%; height: auto; }
+	
+	#ads p { width: 80%; text-align: center; margin: 5px 10%; }
+		#ads > p {color: #353535; text-align: left; margin: 0px 0px 10px 0px;}
+		#ads div p.title { text-transform: uppercase;  }
+		#ads div p.date { text-transform: none; color: #b0b0b0 }
+	
+	
+	
+	#features ul li a:link, #features ul li a:visited {text-decoration: none;}
+	#features ul li a:hover, #features ul li a:active {color: #ffffff;}
+	
+	
+	
+	
+	
+	
+	.footer { padding: 20px 0px 20px 0px; }
+	
+	.footer div ul li { float: left; margin-right: 30px; }
+	
+	.footer div#tonight { margin: 0px auto; width: 80%; text-align: center; }
+	
+	#feast { color: #00b1f2; }
+	#papers { color: #00bf42; }
+	#tonightsevent { color: red; }
+	
+	#fine { color: #363636; font-size: 10px; padding-top: 100px;}
+	
+	#fine a { color: #636363; }
+	
+	#iphone-info { display:none; }
+
+
+
+/* For landscape layouts only */
+@media screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+	.rightcontent {display: block;}
+}
+
+/* rightcontent must be block 
+@media only screen and (min-width: 810px) and (max-width: 2000px) {
+	.rightcontent {display: block;}
+}*/
+
+@media screen and (min-width: 620px) and (max-width: 809px)  { 
+	.wid {width: 600px;}
+	
+}
+
+
+	.wid {width: 790px;}
+	#lx { height: 375px;}
+	#rx { height: 375px;}
+	
+
+	body {font-size: 10px;}
+	
+	.nav ul li {padding-right: 5px; padding-left: 5px;}
+	.nav ul.right li.edge {padding-right: 0px; padding-left: 5px;}
+	.nav ul.left li.edge {padding-right: 5px; padding-left: 0px;}
+	.nav ul.left {width: 210px;}
+	.nav ul.right {width: 210px;}
+	
+	.nav ul li {float: left; padding-bottom: 20px;}
+	.nav {height: 24px; margin: 0px auto 0px auto; }
+	.dropdown {	width: 100%; height: 100%; position: relative;
+				background-color: black; border-bottom: 1px solid white;
+				border-left: 1px solid white; top: -17px; }
+	#lx { padding-top: 10px; }
+	#rx { padding-top: 10px; }
+
+
+
+{
+	.wid {width: 900px;}
+	.nav ul li {padding-right: 10px; padding-left: 10px;}
+	.nav ul.right li.edge {padding-right: 0px; padding-left: 10px;}
+	.nav ul.left li.edge {padding-right: 10px; padding-left: 0px;}
+	.nav ul.left {width: 300px;}
+	.nav ul.right {width: 270px;}
+	#lx { height: 450px;}
+	#rx { height: 450px;}
+	}
+	
+@media screen and (min-width: 1030px) and (max-width: 1149px) {
+	.nav ul.left {width: 350px;}
+	.wid {width: 1016px;}
+}
+@media screen and (min-width: 1150px) and (max-width: 2500px)  {
+	.wid {width: 1116px;}
+}
+
+

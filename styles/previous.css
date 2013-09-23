@@ -1,0 +1,47 @@
+#previouspage {margin-top:30px;}
+#previouspage h3 { margin: 30px 0px 20px 0px;}
+#previouslx { width: 30%; float: left; height: 450px; overflow-x: visible; overflow-y:scroll; }
+#previouslist { width: 99%; }
+#previouspage #previouslx #previouslist ul li {width: 70%;}
+#previouspage #previouslx #previouslist ul li.eventunit {margin-left: 10px;}
+#previouspage #previouslx #previouslist ul li.eventyear {width: 70%;}
+#previouspage #previouslx #previouslist a.calitem {display:block; margin: 9px 0px 9px 0px; padding: 20px 0px 20px 0px;}
+#previouspage #previouslx #previouslist a.calitem p {color: #9d9d9d;}
+#previouspage #previouslx #previouslist a.calitem p.title {color: #000;}
+#previouspage #previouslx #previouslist a.calitem:hover p.title {color: #ff0000;}
+#previouspage #previouslx #previouslist a.calitem:hover p.clickhere {color: #30f3c2; font-style: oblique; }
+#previouspage #previouslx #previouslist a.calitem:hover p {color: #9d9d9d;}
+#previousrx { width: 680px;display:block;float: right; height: 550px;}
+/*event previews default to hide*/
+.eventpreview { display: none; font-family: SangBleu; font-size: 1.1em;}
+.eventpreview p { margin: 5px 0px;}
+.preview-artists-pane { width: 0px; height: 550px; float: left; position: relative }
+.preview-artists {width: 150px; text-align: right; position: absolute; right: 0px; bottom: 0px; padding-right: 10px;}
+.preview-poster { width: 680px; height: 530px; float: right; background-position: center center; background-repeat: no-repeat; background-size: contain;}
+.preview-date { float: right;  width: 500px; padding-top: 10px;}
+.clickhere { display: none; }
+
+
+#previouslx::-webkit-scrollbar {
+background-color: #ffffff;
+    width: 25px;
+}
+ 
+#previouslx::-webkit-scrollbar-track {
+ left:100px;
+
+    background-color: #fff;
+    border-radius: 0px;
+}
+ 
+#previouslx::-webkit-scrollbar-thumb {
+ 	border-radius: 0px;
+    background-color: #fff;
+    background-image:url(../img/scrollbar.jpg); background-position: center top; background-repeat: repeat-y; cursor: hand;
+}
+
+
+#previouslx::-webkit-scrollbar-button       { display: none; }
+#previouslx::-webkit-scrollbar-track-piece  { display: none; }
+#previouslx::-webkit-scrollbar-corner       { display: none; }
+#previouslx::-webkit-resizer                { display: none; }

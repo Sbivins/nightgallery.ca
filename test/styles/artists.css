@@ -1,0 +1,4 @@
+#artistspage {  }
+#artistspage h3 {padding-top: 20px;}
+#artistspage a {display: block; float: left; width: 200px; height: 200px; margin: 30px 65px; text-align: center;}
+#artistspage a div {width: 150px; height: 150px; margin: 0px auto; margin-bottom: 10px; background-position: center center; background-size:  cover; }
